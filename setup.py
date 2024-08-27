@@ -20,7 +20,7 @@ extras_require = {
 extras_require["all"] = sum(extras_require.values(), [])
 
 setup(
-    name="omnixai",
+    name="omnixai-community",
     version="1.3.2",
     author="Wenzhuo Yang, Hung Le, Tanmay Shivprasad Laud, Silvio Savarese, Steven C.H. Hoi",
     description="OmniXAI: An Explainable AI Toolbox",
