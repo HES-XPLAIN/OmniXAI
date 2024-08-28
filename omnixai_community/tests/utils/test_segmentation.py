@@ -8,8 +8,8 @@ import os
 import unittest
 import numpy as np
 from PIL import Image as PilImage
-from omnixai-community.data.image import Image
-from omnixai-community.utils.segmentation import image_segmentation
+from omnixai_community.data.image import Image
+from omnixai_community.utils.segmentation import image_segmentation
 
 
 class TestSegmentation(unittest.TestCase):

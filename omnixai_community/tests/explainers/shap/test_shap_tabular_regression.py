@@ -6,9 +6,9 @@
 #
 import unittest
 import pprint
-from omnixai-community.utils.misc import set_random_seed
-from omnixai-community.explainers.tabular import ShapTabular
-from omnixai-community.tests.explainers.tasks import TabularRegression
+from omnixai_community.utils.misc import set_random_seed
+from omnixai_community.explainers.tabular import ShapTabular
+from omnixai_community.tests.explainers.tasks import TabularRegression
 
 
 class TestShapTabular(unittest.TestCase):

@@ -9,9 +9,9 @@ import unittest
 import numpy as np
 import sklearn.ensemble
 from sklearn.datasets import fetch_20newsgroups
-from omnixai-community.data.text import Text
-from omnixai-community.preprocessing.text import Tfidf
-from omnixai-community.explainers.nlp.agnostic.l2x import L2XText
+from omnixai_community.data.text import Text
+from omnixai_community.preprocessing.text import Tfidf
+from omnixai_community.explainers.nlp.agnostic.l2x import L2XText
 
 
 class TestL2XText(unittest.TestCase):

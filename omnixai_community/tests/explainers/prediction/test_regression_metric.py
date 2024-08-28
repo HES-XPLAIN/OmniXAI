@@ -5,9 +5,9 @@
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
 import unittest
-from omnixai-community.explainers.prediction import PredictionAnalyzer
-from omnixai-community.tests.explainers.tasks import TabularRegression
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.explainers.prediction import PredictionAnalyzer
+from omnixai_community.tests.explainers.tasks import TabularRegression
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestRegressionMetrics(unittest.TestCase):

@@ -7,10 +7,10 @@
 import unittest
 import numpy as np
 import pandas as pd
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.preprocessing.normalize import *
-from omnixai-community.preprocessing.encode import *
-from omnixai-community.preprocessing.tabular import TabularTransform
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.preprocessing.normalize import *
+from omnixai_community.preprocessing.encode import *
+from omnixai_community.preprocessing.tabular import TabularTransform
 
 
 class TestTabularTransform(unittest.TestCase):

@@ -11,13 +11,13 @@ import sklearn
 import sklearn.ensemble
 from sklearn.datasets import fetch_california_housing
 
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.preprocessing.base import Identity
-from omnixai-community.preprocessing.tabular import TabularTransform
-from omnixai-community.explainers.data import DataAnalyzer
-from omnixai-community.explainers.tabular import TabularExplainer
-from omnixai-community.explainers.prediction import PredictionAnalyzer
-from omnixai-community.visualization.dashboard import Dashboard
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.preprocessing.base import Identity
+from omnixai_community.preprocessing.tabular import TabularTransform
+from omnixai_community.explainers.data import DataAnalyzer
+from omnixai_community.explainers.tabular import TabularExplainer
+from omnixai_community.explainers.prediction import PredictionAnalyzer
+from omnixai_community.visualization.dashboard import Dashboard
 
 
 class TestDashboard(unittest.TestCase):

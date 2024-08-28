@@ -10,8 +10,8 @@ import unittest
 import requests
 from PIL import Image as PilImage
 
-from omnixai-community.preprocessing.image import Resize
-from omnixai-community.data.image import Image
+from omnixai_community.preprocessing.image import Resize
+from omnixai_community.data.image import Image
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
 
@@ -44,7 +44,7 @@ class TestVisionRequest(unittest.TestCase):
             data=m
         ).text
 
-        from omnixai-community.explainers.base import AutoExplainerBase
+        from omnixai_community.explainers.base import AutoExplainerBase
         exp = AutoExplainerBase.parse_explanations_from_json(result)
         for name, explanation in exp.items():
             explanation.ipython_plot()

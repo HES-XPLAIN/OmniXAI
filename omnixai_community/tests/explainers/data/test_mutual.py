@@ -9,8 +9,8 @@ import unittest
 import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.data.mutual_info import MutualInformation
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.data.mutual_info import MutualInformation
 
 
 class TestMutual(unittest.TestCase):

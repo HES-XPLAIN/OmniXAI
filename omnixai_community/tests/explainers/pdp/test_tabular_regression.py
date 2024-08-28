@@ -7,9 +7,9 @@
 import unittest
 import pprint
 import numpy as np
-from omnixai-community.utils.misc import set_random_seed
-from omnixai-community.explainers.tabular import PartialDependenceTabular
-from omnixai-community.tests.explainers.tasks import TabularRegression
+from omnixai_community.utils.misc import set_random_seed
+from omnixai_community.explainers.tabular import PartialDependenceTabular
+from omnixai_community.tests.explainers.tasks import TabularRegression
 
 
 class TestPDPTabular(unittest.TestCase):

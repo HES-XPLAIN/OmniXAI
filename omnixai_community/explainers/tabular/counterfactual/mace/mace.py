@@ -49,7 +49,7 @@ class MACEExplainer(ExplainerBase, TabularExplainerMixin):
         :param training_data: The data used to initialize a MACE explainer. ``training_data``
             can be the training dataset for training the machine learning model. If the training
             dataset is large, ``training_data`` can be its subset by applying
-            `omnixai-community.sampler.tabular.Sampler.subsample`.
+            `omnixai_community.sampler.tabular.Sampler.subsample`.
         :param predict_function: The prediction function corresponding to the model to explain.
             The model should be a classifier, the outputs of the ``predict_function``
             are the class probabilities.

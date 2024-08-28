@@ -10,10 +10,10 @@ import sklearn.datasets
 import sklearn.ensemble
 import xgboost
 import numpy as np
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.preprocessing.tabular import TabularTransform
-from omnixai-community.explainers.tabular import TabularExplainer
-from omnixai-community.deployment.bentoml.omnixai import save_model, load_model
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.preprocessing.tabular import TabularTransform
+from omnixai_community.explainers.tabular import TabularExplainer
+from omnixai_community.deployment.bentoml.omnixai import save_model, load_model
 
 
 def train():

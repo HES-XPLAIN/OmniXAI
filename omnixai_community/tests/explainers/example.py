@@ -9,11 +9,11 @@ import unittest
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from omnixai-community.explainers.tabular import LimeTabular
-from omnixai-community.explainers.tabular import ShapTabular
-from omnixai-community.explainers.tabular import MACEExplainer
-from omnixai-community.explainers.tabular import PartialDependenceTabular
-from omnixai-community.tests.explainers.tasks import TabularClassification
+from omnixai_community.explainers.tabular import LimeTabular
+from omnixai_community.explainers.tabular import ShapTabular
+from omnixai_community.explainers.tabular import MACEExplainer
+from omnixai_community.explainers.tabular import PartialDependenceTabular
+from omnixai_community.tests.explainers.tasks import TabularClassification
 
 pd.set_option("display.max_columns", None)
 

@@ -7,8 +7,8 @@
 import os
 import unittest
 import numpy as np
-from omnixai-community.preprocessing.pipeline import Pipeline
-from omnixai-community.preprocessing.normalize import *
+from omnixai_community.preprocessing.pipeline import Pipeline
+from omnixai_community.preprocessing.normalize import *
 
 
 class TestPipeline(unittest.TestCase):

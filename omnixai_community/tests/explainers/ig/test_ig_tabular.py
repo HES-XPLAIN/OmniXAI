@@ -17,8 +17,8 @@ from torch.utils.data import DataLoader
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.tabular import IntegratedGradientTabular
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.tabular import IntegratedGradientTabular
 
 
 class InputData(Dataset):

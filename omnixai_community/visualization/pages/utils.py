@@ -6,7 +6,7 @@
 #
 from dash import html
 from collections import OrderedDict
-from omnixai-community.explanations.base import DashFigure
+from omnixai_community.explanations.base import DashFigure
 
 
 def create_banner(app):

@@ -13,10 +13,10 @@ import sklearn.ensemble
 import xgboost
 import numpy as np
 import pandas as pd
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.preprocessing.base import Identity
-from omnixai-community.preprocessing.tabular import TabularTransform
-from omnixai-community.utils.misc import set_random_seed
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.preprocessing.base import Identity
+from omnixai_community.preprocessing.tabular import TabularTransform
+from omnixai_community.utils.misc import set_random_seed
 
 
 class Task:

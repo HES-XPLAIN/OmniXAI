@@ -11,10 +11,10 @@ import numpy as np
 from typing import Callable
 from scipy.optimize import approx_fprime
 
-from omnixai-community.data.timeseries import Timeseries
-from omnixai-community.explainers.base import ExplainerBase
-from omnixai-community.explanations.timeseries.counterfactual import CFExplanation
-from omnixai-community.utils.misc import ProgressBar
+from omnixai_community.data.timeseries import Timeseries
+from omnixai_community.explainers.base import ExplainerBase
+from omnixai_community.explanations.timeseries.counterfactual import CFExplanation
+from omnixai_community.utils.misc import ProgressBar
 
 
 class CounterfactualOptimizer:

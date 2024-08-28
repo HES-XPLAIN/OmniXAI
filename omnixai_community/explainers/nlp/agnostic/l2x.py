@@ -11,11 +11,11 @@ import warnings
 import sklearn
 import numpy as np
 from typing import Callable
-from omnixai-community.utils.misc import is_torch_available
-from omnixai-community.data.text import Text
-from omnixai-community.explainers.base import ExplainerBase
-from omnixai-community.preprocessing.text import Word2Id
-from omnixai-community.explanations.text.word_importance import WordImportance
+from omnixai_community.utils.misc import is_torch_available
+from omnixai_community.data.text import Text
+from omnixai_community.explainers.base import ExplainerBase
+from omnixai_community.preprocessing.text import Word2Id
+from omnixai_community.explanations.text.word_importance import WordImportance
 
 if is_torch_available():
     import torch

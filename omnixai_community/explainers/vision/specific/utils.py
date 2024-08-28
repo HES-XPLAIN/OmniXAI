@@ -5,8 +5,8 @@
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
 import numpy as np
-from omnixai-community.utils.misc import is_tf_available, is_torch_available
-from omnixai-community.data.image import Image
+from omnixai_community.utils.misc import is_tf_available, is_torch_available
+from omnixai_community.data.image import Image
 
 
 class GradMixin:

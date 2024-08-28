@@ -9,8 +9,8 @@ import numpy as np
 from sklearn import svm, datasets
 from sklearn.model_selection import train_test_split
 
-from omnixai-community.explainers.prediction import PredictionAnalyzer
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.explainers.prediction import PredictionAnalyzer
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestConfusionMatrix(unittest.TestCase):

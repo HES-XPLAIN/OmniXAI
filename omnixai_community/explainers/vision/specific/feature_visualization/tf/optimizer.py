@@ -134,7 +134,7 @@ class FeatureOptimizer(FeatureOptimizerMixin):
 
     @staticmethod
     def _default_transform(size):
-        from omnixai-community.preprocessing.pipeline import Pipeline
+        from omnixai_community.preprocessing.pipeline import Pipeline
         from .preprocess import RandomBlur, RandomCrop, \
             RandomResize, RandomFlip, Padding
 
@@ -204,7 +204,7 @@ class FeatureOptimizer(FeatureOptimizerMixin):
             verbose=True,
             **kwargs
     ):
-        from omnixai-community.utils.misc import ProgressBar
+        from omnixai_community.utils.misc import ProgressBar
         bar = ProgressBar(num_iterations) if verbose else None
         model, objective_func, input_shape = self._build_model()
 

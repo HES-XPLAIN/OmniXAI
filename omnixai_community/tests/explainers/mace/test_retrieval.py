@@ -7,8 +7,8 @@
 import os
 import unittest
 import pandas as pd
-from omnixai-community.explainers.tabular.counterfactual.mace.retrieval import CFRetrieval
-from omnixai-community.tests.explainers.tasks import TabularClassification
+from omnixai_community.explainers.tabular.counterfactual.mace.retrieval import CFRetrieval
+from omnixai_community.tests.explainers.tasks import TabularClassification
 
 pd.set_option("display.max_columns", None)
 

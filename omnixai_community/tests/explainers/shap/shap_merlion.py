@@ -9,9 +9,9 @@ import pandas as pd
 from datetime import datetime
 from typing import List
 from merlion.utils.time_series import TimeSeries as merlion_timeSeries
-from omnixai-community.data.timeseries import Timeseries as omnixai_timeSeries
+from omnixai_community.data.timeseries import Timeseries as omnixai_timeSeries
 from merlion.models.defaults import DefaultForecasterConfig, DefaultForecaster
-from omnixai-community.explainers.timeseries.agnostic.shap import ShapTimeseries
+from omnixai_community.explainers.timeseries.agnostic.shap import ShapTimeseries
 
 
 class TestMerlion(unittest.TestCase):

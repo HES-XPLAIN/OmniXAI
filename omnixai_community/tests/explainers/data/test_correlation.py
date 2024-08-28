@@ -7,9 +7,9 @@
 import os
 import unittest
 import numpy as np
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.data.correlation import CorrelationAnalyzer
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.data.correlation import CorrelationAnalyzer
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestImbalance(unittest.TestCase):

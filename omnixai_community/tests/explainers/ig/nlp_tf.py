@@ -10,9 +10,9 @@ import pandas as pd
 import tensorflow as tf
 import sklearn
 from sklearn.datasets import fetch_20newsgroups
-from omnixai-community.data.text import Text
-from omnixai-community.preprocessing.text import Word2Id
-from omnixai-community.explainers.nlp.specific.ig import IntegratedGradientText
+from omnixai_community.data.text import Text
+from omnixai_community.preprocessing.text import Word2Id
+from omnixai_community.explainers.nlp.specific.ig import IntegratedGradientText
 
 
 class TextModel(tf.keras.Model):

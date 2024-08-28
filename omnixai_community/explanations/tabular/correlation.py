@@ -8,7 +8,7 @@
 Feature correlation analysis.
 """
 import numpy as np
-from omnixai-community.explanations.base import ExplanationBase, DashFigure
+from omnixai_community.explanations.base import ExplanationBase, DashFigure
 
 
 class CorrelationExplanation(ExplanationBase):

@@ -9,9 +9,9 @@ import unittest
 import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.data.chi_square import ChiSquare
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.data.chi_square import ChiSquare
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestChi2(unittest.TestCase):

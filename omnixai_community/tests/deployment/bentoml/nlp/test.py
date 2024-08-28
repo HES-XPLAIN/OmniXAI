@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: BSD-3-Clause
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
-from omnixai-community.data.text import Text
-from omnixai-community.deployment.bentoml.omnixai import init_service
+from omnixai_community.data.text import Text
+from omnixai_community.deployment.bentoml.omnixai import init_service
 
 
 def test():
@@ -25,8 +25,8 @@ def test():
     print(predictions)
     local_explanations = svc.apis["explain"].func(x, {})
 
-    from omnixai-community.explainers.base import AutoExplainerBase
-    from omnixai-community.visualization.dashboard import Dashboard
+    from omnixai_community.explainers.base import AutoExplainerBase
+    from omnixai_community.visualization.dashboard import Dashboard
     exp = AutoExplainerBase.parse_explanations_from_json(local_explanations)
     dashboard = Dashboard(instances=x, local_explanations=exp)
     dashboard.show()

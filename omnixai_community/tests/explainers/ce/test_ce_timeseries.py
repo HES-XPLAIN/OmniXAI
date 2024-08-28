@@ -7,9 +7,9 @@
 import os
 import unittest
 import numpy as np
-from omnixai-community.utils.misc import set_random_seed
-from omnixai-community.data.timeseries import Timeseries
-from omnixai-community.explainers.timeseries.counterfactual.ce import CounterfactualExplainer
+from omnixai_community.utils.misc import set_random_seed
+from omnixai_community.data.timeseries import Timeseries
+from omnixai_community.explainers.timeseries.counterfactual.ce import CounterfactualExplainer
 
 
 class TestShapTimeseries(unittest.TestCase):

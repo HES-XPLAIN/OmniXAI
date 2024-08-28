@@ -10,11 +10,11 @@ The explainer based ChatGPT.
 import os
 import openai
 from typing import Callable, List
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.base import ExplainerBase
-from omnixai-community.explainers.tabular.agnostic.shap import ShapTabular
-from omnixai-community.explainers.tabular.counterfactual.mace.mace import MACEExplainer
-from omnixai-community.explanations.base import PlainText
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.base import ExplainerBase
+from omnixai_community.explainers.tabular.agnostic.shap import ShapTabular
+from omnixai_community.explainers.tabular.counterfactual.mace.mace import MACEExplainer
+from omnixai_community.explanations.base import PlainText
 
 
 class GPTExplainer(ExplainerBase):

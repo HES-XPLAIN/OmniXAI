@@ -12,10 +12,10 @@ import numpy as np
 from torchvision import models, transforms
 from PIL import Image as PilImage
 
-from omnixai-community.preprocessing.image import Resize
-from omnixai-community.data.image import Image
-from omnixai-community.explainers.vision import VisionExplainer
-from omnixai-community.visualization.dashboard import Dashboard
+from omnixai_community.preprocessing.image import Resize
+from omnixai_community.data.image import Image
+from omnixai_community.explainers.vision import VisionExplainer
+from omnixai_community.visualization.dashboard import Dashboard
 
 
 class TestDashboard(unittest.TestCase):

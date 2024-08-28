@@ -7,7 +7,7 @@
 import unittest
 import numpy as np
 import pandas as pd
-from omnixai-community.explanations.utils import np_to_json, json_to_np, \
+from omnixai_community.explanations.utils import np_to_json, json_to_np, \
     pd_to_json, json_to_pd
 
 

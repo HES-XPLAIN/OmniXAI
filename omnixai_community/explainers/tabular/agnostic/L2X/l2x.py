@@ -11,10 +11,10 @@ import warnings
 import sklearn
 import numpy as np
 from typing import Callable
-from omnixai-community.utils.misc import is_torch_available
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.tabular.base import TabularExplainer
-from omnixai-community.explanations.tabular.feature_importance import FeatureImportance
+from omnixai_community.utils.misc import is_torch_available
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.tabular.base import TabularExplainer
+from omnixai_community.explanations.tabular.feature_importance import FeatureImportance
 
 if is_torch_available():
     import torch

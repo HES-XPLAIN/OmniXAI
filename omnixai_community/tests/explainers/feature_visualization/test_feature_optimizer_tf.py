@@ -7,7 +7,7 @@
 import unittest
 import numpy as np
 import tensorflow as tf
-from omnixai-community.explainers.vision.specific.feature_visualization.tf.optimizer import \
+from omnixai_community.explainers.vision.specific.feature_visualization.tf.optimizer import \
     Objective, FeatureOptimizer
 
 

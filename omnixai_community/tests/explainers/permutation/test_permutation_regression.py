@@ -5,9 +5,9 @@
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
 import unittest
-from omnixai-community.utils.misc import set_random_seed
-from omnixai-community.explainers.tabular import PermutationImportance
-from omnixai-community.tests.explainers.tasks import TabularRegression
+from omnixai_community.utils.misc import set_random_seed
+from omnixai_community.explainers.tabular import PermutationImportance
+from omnixai_community.tests.explainers.tasks import TabularRegression
 
 
 class TestPDPTabular(unittest.TestCase):

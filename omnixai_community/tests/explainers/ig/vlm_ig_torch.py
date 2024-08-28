@@ -8,11 +8,11 @@ import os
 import torch
 import unittest
 from PIL import Image as PilImage
-from omnixai-community.data.text import Text
-from omnixai-community.data.image import Image
-from omnixai-community.data.multi_inputs import MultiInputs
-from omnixai-community.preprocessing.image import Resize
-from omnixai-community.explainers.vision_language.specific.ig import IntegratedGradient
+from omnixai_community.data.text import Text
+from omnixai_community.data.image import Image
+from omnixai_community.data.multi_inputs import MultiInputs
+from omnixai_community.preprocessing.image import Resize
+from omnixai_community.explainers.vision_language.specific.ig import IntegratedGradient
 
 from lavis.models import BlipITM
 from lavis.processors import load_processor

@@ -17,11 +17,11 @@ from bentoml.models import Model
 from bentoml.models import ModelContext
 from bentoml.exceptions import NotFound
 from bentoml.exceptions import BentoMLException
-from omnixai-community.explainers.base import AutoExplainerBase
-from omnixai-community.utils.misc import get_pkg_version
-from omnixai-community.explanations.utils import DefaultJsonEncoder
+from omnixai_community.explainers.base import AutoExplainerBase
+from omnixai_community.utils.misc import get_pkg_version
+from omnixai_community.explanations.utils import DefaultJsonEncoder
 
-MODULE_NAME = "omnixai-community.deployment.bentoml.omnixai"
+MODULE_NAME = "omnixai_community.deployment.bentoml.omnixai"
 MODEL_PATH = "saved_model"
 API_VERSION = "v1"
 

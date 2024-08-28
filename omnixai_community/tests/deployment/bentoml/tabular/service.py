@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
-from omnixai-community.deployment.bentoml.omnixai import init_service
+from omnixai_community.deployment.bentoml.omnixai import init_service
 
 print("Loading tabular service...")
 

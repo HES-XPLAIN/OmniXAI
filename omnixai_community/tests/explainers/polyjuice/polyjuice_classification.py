@@ -8,8 +8,8 @@ import unittest
 import transformers
 import numpy as np
 
-from omnixai-community.data.text import Text
-from omnixai-community.explainers.nlp.counterfactual.polyjuice import Polyjuice
+from omnixai_community.data.text import Text
+from omnixai_community.explainers.nlp.counterfactual.polyjuice import Polyjuice
 
 
 class TestPolyjuice(unittest.TestCase):
@@ -46,7 +46,7 @@ class TestPolyjuice(unittest.TestCase):
         ])
         explanations = self.explainer.explain(x)
 
-        from omnixai-community.visualization.dashboard import Dashboard
+        from omnixai_community.visualization.dashboard import Dashboard
         dashboard = Dashboard(
             instances=x,
             local_explanations={"polyjuice": explanations}

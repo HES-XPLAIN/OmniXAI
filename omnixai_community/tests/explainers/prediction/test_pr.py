@@ -10,8 +10,8 @@ from sklearn import svm, datasets
 from sklearn.model_selection import train_test_split
 from sklearn.multiclass import OneVsRestClassifier
 
-from omnixai-community.explainers.prediction import PredictionAnalyzer
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.explainers.prediction import PredictionAnalyzer
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestPrecisionRecall(unittest.TestCase):

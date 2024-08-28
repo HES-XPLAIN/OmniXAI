@@ -6,10 +6,10 @@
 #
 import unittest
 import pprint
-from omnixai-community.utils.misc import set_random_seed
-from omnixai-community.explainers.tabular.agnostic.ale import ALE
-from omnixai-community.tests.explainers.tasks import TabularRegression
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.utils.misc import set_random_seed
+from omnixai_community.explainers.tabular.agnostic.ale import ALE
+from omnixai_community.tests.explainers.tasks import TabularRegression
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestALE(unittest.TestCase):

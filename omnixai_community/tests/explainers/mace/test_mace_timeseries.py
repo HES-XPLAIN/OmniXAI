@@ -8,9 +8,9 @@ import os
 import unittest
 import numpy as np
 import pandas as pd
-from omnixai-community.utils.misc import set_random_seed
-from omnixai-community.data.timeseries import Timeseries
-from omnixai-community.explainers.timeseries.counterfactual.mace import MACEExplainer
+from omnixai_community.utils.misc import set_random_seed
+from omnixai_community.data.timeseries import Timeseries
+from omnixai_community.explainers.timeseries.counterfactual.mace import MACEExplainer
 
 
 def load_timeseries():

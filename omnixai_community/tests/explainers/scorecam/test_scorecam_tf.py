@@ -12,9 +12,9 @@ import tensorflow as tf
 from tensorflow.keras.applications import mobilenet_v2
 from PIL import Image as PilImage
 
-from omnixai-community.data.image import Image
-from omnixai-community.preprocessing.image import Resize
-from omnixai-community.explainers.vision.specific.scorecam import ScoreCAM
+from omnixai_community.data.image import Image
+from omnixai_community.preprocessing.image import Resize
+from omnixai_community.explainers.vision.specific.scorecam import ScoreCAM
 
 
 class TestScoreCAM(unittest.TestCase):

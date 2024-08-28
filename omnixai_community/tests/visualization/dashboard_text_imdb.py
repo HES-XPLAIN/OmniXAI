@@ -11,11 +11,11 @@ import torch
 import torch.nn as nn
 import sklearn
 
-from omnixai-community.data.text import Text
-from omnixai-community.preprocessing.text import Word2Id
-from omnixai-community.explainers.tabular.agnostic.L2X.utils import Trainer, InputData, DataLoader
-from omnixai-community.explainers.nlp import NLPExplainer
-from omnixai-community.visualization.dashboard import Dashboard
+from omnixai_community.data.text import Text
+from omnixai_community.preprocessing.text import Word2Id
+from omnixai_community.explainers.tabular.agnostic.L2X.utils import Trainer, InputData, DataLoader
+from omnixai_community.explainers.nlp import NLPExplainer
+from omnixai_community.visualization.dashboard import Dashboard
 
 
 class TextModel(nn.Module):

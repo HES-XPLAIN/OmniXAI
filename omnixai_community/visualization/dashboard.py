@@ -21,12 +21,12 @@ from jupyter_dash import JupyterDash
 import warnings
 
 import dash_bootstrap_components as dbc
-import omnixai-community.visualization.callbacks.data_exp
-import omnixai-community.visualization.callbacks.global_exp
-import omnixai-community.visualization.callbacks.local_exp
-import omnixai-community.visualization.callbacks.prediction_exp
-import omnixai-community.visualization.callbacks.whatif_exp
-import omnixai-community.visualization.state as board
+import omnixai_community.visualization.callbacks.data_exp
+import omnixai_community.visualization.callbacks.global_exp
+import omnixai_community.visualization.callbacks.local_exp
+import omnixai_community.visualization.callbacks.prediction_exp
+import omnixai_community.visualization.callbacks.whatif_exp
+import omnixai_community.visualization.state as board
 
 from ..explainers.tabular import TabularExplainer
 from .layout import create_banner, create_layout

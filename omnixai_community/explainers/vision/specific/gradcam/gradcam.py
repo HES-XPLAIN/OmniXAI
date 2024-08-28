@@ -8,9 +8,9 @@
 The Grad-CAM methods for vision tasks.
 """
 from typing import Callable
-from omnixai-community.utils.misc import is_tf_available, is_torch_available
-from omnixai-community.explainers.base import ExplainerBase
-from omnixai-community.data.image import Image
+from omnixai_community.utils.misc import is_tf_available, is_torch_available
+from omnixai_community.explainers.base import ExplainerBase
+from omnixai_community.data.image import Image
 
 
 class GradCAM(ExplainerBase):

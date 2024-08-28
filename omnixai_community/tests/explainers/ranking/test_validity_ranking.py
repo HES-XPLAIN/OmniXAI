@@ -6,9 +6,9 @@
 #
 import os
 import unittest
-from omnixai-community.explainers.ranking.agnostic.validity import ValidityRankingExplainer
-from omnixai-community.tests.explainers.tasks import TabularClassification
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.explainers.ranking.agnostic.validity import ValidityRankingExplainer
+from omnixai_community.tests.explainers.tasks import TabularClassification
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestRanking(unittest.TestCase):

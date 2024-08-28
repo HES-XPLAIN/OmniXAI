@@ -6,7 +6,7 @@
 #
 import unittest
 import pandas as pd
-from omnixai-community.explanations.tabular.feature_importance import FeatureImportance, ExplanationBase
+from omnixai_community.explanations.tabular.feature_importance import FeatureImportance, ExplanationBase
 
 
 class TestFeatureImportance(unittest.TestCase):
@@ -21,7 +21,7 @@ class TestFeatureImportance(unittest.TestCase):
             importance_scores=[0.1, 0.2, 0.3]
         )
         s = exp.to_json()
-        self.assertEqual(s, '{"module": "omnixai-community.explanations.tabular.feature_importance", '
+        self.assertEqual(s, '{"module": "omnixai_community.explanations.tabular.feature_importance", '
                             '"class": "FeatureImportance", '
                             '"data": {"mode": "classification", '
                             '"explanations": [{"instance": {"col 1": {"0": "a", "1": "c"}, '

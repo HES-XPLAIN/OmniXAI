@@ -7,8 +7,8 @@
 import os
 import unittest
 import numpy as np
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.sampler.tabular import Sampler
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.sampler.tabular import Sampler
 
 
 class TestSampler(unittest.TestCase):

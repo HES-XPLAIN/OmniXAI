@@ -31,7 +31,7 @@ class SensitivityAnalysisTabular(TabularExplainer):
         :param training_data: The data used to initialize the explainer. ``training_data``
             can be the training dataset for training the machine learning model. If the training
             dataset is large, ``training_data`` can be its subset by applying
-            `omnixai-community.sampler.tabular.Sampler.subsample`.
+            `omnixai_community.sampler.tabular.Sampler.subsample`.
         :param predict_function: The prediction function corresponding to the model to explain.
             The outputs of the ``predict_function`` should be a batch of estimated values, e.g.,
             class probabilities are not supported.

@@ -10,8 +10,8 @@ import torch
 from torchvision import models, transforms
 from PIL import Image as PilImage
 
-from omnixai-community.data.image import Image
-from omnixai-community.explainers.vision.specific.feature_visualization.visualizer import \
+from omnixai_community.data.image import Image
+from omnixai_community.explainers.vision.specific.feature_visualization.visualizer import \
     FeatureMapVisualizer
 
 

@@ -6,7 +6,7 @@
 #
 import unittest
 from tensorflow.keras.applications import vgg16
-from omnixai-community.explainers.vision.specific.feature_visualization.tf.optimizer import \
+from omnixai_community.explainers.vision.specific.feature_visualization.tf.optimizer import \
     Objective, FeatureOptimizer
 
 

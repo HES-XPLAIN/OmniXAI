@@ -9,10 +9,10 @@ import unittest
 import pprint
 import sklearn.ensemble
 from sklearn.datasets import fetch_20newsgroups
-from omnixai-community.data.text import Text
-from omnixai-community.explainers.nlp import LimeText
-from omnixai-community.preprocessing.text import Tfidf
-from omnixai-community.utils.misc import set_random_seed
+from omnixai_community.data.text import Text
+from omnixai_community.explainers.nlp import LimeText
+from omnixai_community.preprocessing.text import Tfidf
+from omnixai_community.utils.misc import set_random_seed
 
 
 class TestLimeText(unittest.TestCase):

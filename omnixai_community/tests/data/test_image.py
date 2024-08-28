@@ -8,7 +8,7 @@ import os
 import unittest
 import torchvision
 from PIL import Image as PilImage
-from omnixai-community.data.image import Image
+from omnixai_community.data.image import Image
 
 
 class TestImage(unittest.TestCase):

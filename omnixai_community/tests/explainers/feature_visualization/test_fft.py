@@ -7,11 +7,11 @@
 import unittest
 import torch
 import tensorflow as tf
-from omnixai-community.explainers.vision.specific.feature_visualization.utils import \
+from omnixai_community.explainers.vision.specific.feature_visualization.utils import \
     fft_freq, fft_scale, fft_inputs
-from omnixai-community.explainers.vision.specific.feature_visualization.tf.preprocess import \
+from omnixai_community.explainers.vision.specific.feature_visualization.tf.preprocess import \
     fft_images as fft_images_tf
-from omnixai-community.explainers.vision.specific.feature_visualization.pytorch.preprocess import \
+from omnixai_community.explainers.vision.specific.feature_visualization.pytorch.preprocess import \
     fft_images as fft_images_torch
 
 

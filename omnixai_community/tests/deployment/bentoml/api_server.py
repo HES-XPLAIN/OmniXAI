@@ -9,7 +9,7 @@ import socket
 import click
 from bentoml._internal.log import configure_server_logging
 from bentoml._internal.context import component_context
-from omnixai-community.deployment.bentoml.omnixai import init_service
+from omnixai_community.deployment.bentoml.omnixai import init_service
 
 
 async def app(scope, receive, send):

@@ -7,8 +7,8 @@
 import unittest
 import transformers
 
-from omnixai-community.data.text import Text
-from omnixai-community.explainers.nlp import ShapText
+from omnixai_community.data.text import Text
+from omnixai_community.explainers.nlp import ShapText
 
 
 class TestText(unittest.TestCase):

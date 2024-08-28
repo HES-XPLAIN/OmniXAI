@@ -8,8 +8,8 @@ import torch
 import unittest
 from torchvision import models
 from tensorflow.keras.applications import vgg16
-from omnixai-community.explainers.vision.specific.feature_visualization.visualizer import FeatureVisualizer
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.explainers.vision.specific.feature_visualization.visualizer import FeatureVisualizer
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestExplainer(unittest.TestCase):

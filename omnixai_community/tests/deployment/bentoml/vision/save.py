@@ -7,8 +7,8 @@
 import torch
 from torchvision import models, transforms
 
-from omnixai-community.explainers.vision import VisionExplainer
-from omnixai-community.deployment.bentoml.omnixai import save_model, load_model
+from omnixai_community.explainers.vision import VisionExplainer
+from omnixai_community.deployment.bentoml.omnixai import save_model, load_model
 
 
 def test_save_and_load():

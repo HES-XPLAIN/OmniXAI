@@ -9,9 +9,9 @@ from scipy.special import softmax
 from typing import Callable
 from tqdm import trange
 
-from omnixai-community.data.image import Image
-from omnixai-community.utils.misc import is_torch_available
-from omnixai-community.explanations.image.pixel_importance import PixelImportance
+from omnixai_community.data.image import Image
+from omnixai_community.utils.misc import is_torch_available
+from omnixai_community.explanations.image.pixel_importance import PixelImportance
 from ..utils import ScoreCAMMixin
 
 if not is_torch_available():

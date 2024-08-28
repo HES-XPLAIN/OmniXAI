@@ -10,10 +10,10 @@ The basic counterfactual explainer for tabular data.
 import numpy as np
 from typing import Callable
 
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.tabular.base import TabularExplainer
-from omnixai-community.explanations.tabular.counterfactual import CFExplanation
-from omnixai-community.utils.misc import is_torch_available, is_tf_available, ProgressBar
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.tabular.base import TabularExplainer
+from omnixai_community.explanations.tabular.counterfactual import CFExplanation
+from omnixai_community.utils.misc import is_torch_available, is_tf_available, ProgressBar
 
 if is_torch_available():
     import torch
@@ -287,7 +287,7 @@ class CounterfactualExplainer(TabularExplainer):
         :param training_data: The data used to extract information such as medians of
             continuous-valued features. ``training_data`` can be the training dataset for training
             the machine learning model. If the training dataset is large, ``training_data`` can be
-            its subset by applying `omnixai-community.sampler.tabular.Sampler.subsample`.
+            its subset by applying `omnixai_community.sampler.tabular.Sampler.subsample`.
         :param predict_function: The prediction function corresponding to the model to explain.
             When the model is for classification, the outputs of the ``predict_function``
             are the class probabilities. When the model is for regression, the outputs of

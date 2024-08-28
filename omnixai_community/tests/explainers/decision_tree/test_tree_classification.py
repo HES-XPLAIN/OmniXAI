@@ -12,9 +12,9 @@ import sklearn.datasets
 import sklearn.ensemble
 
 import numpy as np
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.tabular.specific.decision_tree import TreeClassifier
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.tabular.specific.decision_tree import TreeClassifier
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestTreeTabular(unittest.TestCase):

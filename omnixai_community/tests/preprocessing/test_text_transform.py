@@ -5,8 +5,8 @@
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
 import unittest
-from omnixai-community.data.text import Text
-from omnixai-community.preprocessing.text import Tfidf, Word2Id
+from omnixai_community.data.text import Text
+from omnixai_community.preprocessing.text import Tfidf, Word2Id
 
 
 class TestText(unittest.TestCase):

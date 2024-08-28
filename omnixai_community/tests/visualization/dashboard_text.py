@@ -7,9 +7,9 @@
 import unittest
 import numpy as np
 import transformers
-from omnixai-community.data.text import Text
-from omnixai-community.explainers.nlp import NLPExplainer
-from omnixai-community.visualization.dashboard import Dashboard
+from omnixai_community.data.text import Text
+from omnixai_community.explainers.nlp import NLPExplainer
+from omnixai_community.visualization.dashboard import Dashboard
 
 
 class TestDashboard(unittest.TestCase):

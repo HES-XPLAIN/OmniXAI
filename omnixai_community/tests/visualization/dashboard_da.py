@@ -7,9 +7,9 @@
 import os
 import unittest
 import numpy as np
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.data import DataAnalyzer
-from omnixai-community.visualization.dashboard import Dashboard
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.data import DataAnalyzer
+from omnixai_community.visualization.dashboard import Dashboard
 
 
 class TestImbalance(unittest.TestCase):

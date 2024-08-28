@@ -7,7 +7,7 @@
 import unittest
 import numpy as np
 import torch.nn as nn
-from omnixai-community.explainers.vision.specific.feature_visualization.pytorch.optimizer import \
+from omnixai_community.explainers.vision.specific.feature_visualization.pytorch.optimizer import \
     Objective, FeatureOptimizer
 
 

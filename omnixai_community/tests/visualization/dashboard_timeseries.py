@@ -8,9 +8,9 @@ import os
 import unittest
 import numpy as np
 import pandas as pd
-from omnixai-community.data.timeseries import Timeseries
-from omnixai-community.explainers.timeseries import TimeseriesExplainer
-from omnixai-community.visualization.dashboard import Dashboard
+from omnixai_community.data.timeseries import Timeseries
+from omnixai_community.explainers.timeseries import TimeseriesExplainer
+from omnixai_community.visualization.dashboard import Dashboard
 
 
 def load_timeseries():

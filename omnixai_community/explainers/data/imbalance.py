@@ -15,7 +15,7 @@ from ..base import ExplainerBase
 from ...data.tabular import Tabular
 from ...preprocessing.tabular import TabularTransform
 from ...preprocessing.encode import Ordinal, KBins
-from omnixai-community.explanations.tabular.imbalance import ImbalanceExplanation
+from omnixai_community.explanations.tabular.imbalance import ImbalanceExplanation
 
 
 class ImbalanceAnalyzer(ExplainerBase):

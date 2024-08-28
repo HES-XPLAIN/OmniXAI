@@ -10,8 +10,8 @@ import torchvision
 import numpy as np
 from PIL import Image as PilImage
 
-from omnixai-community.data.image import Image
-from omnixai-community.preprocessing.image import Scale, Resize
+from omnixai_community.data.image import Image
+from omnixai_community.preprocessing.image import Scale, Resize
 
 
 class TestImage(unittest.TestCase):

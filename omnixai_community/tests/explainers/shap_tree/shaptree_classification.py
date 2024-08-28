@@ -14,8 +14,8 @@ import sklearn.ensemble
 import numpy as np
 import pandas as pd
 
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.tabular import ShapTreeTabular
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.tabular import ShapTreeTabular
 
 pd.set_option("display.max_columns", None)
 

@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 from typing import Dict, Callable
 
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.utils.misc import is_torch_available
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.utils.misc import is_torch_available
 
 
 if is_torch_available():

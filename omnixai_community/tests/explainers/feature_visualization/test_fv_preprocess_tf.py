@@ -9,10 +9,10 @@ import unittest
 import tensorflow as tf
 from PIL import Image as PilImage
 
-from omnixai-community.data.image import Image
-from omnixai-community.explainers.vision.specific.feature_visualization.tf.preprocess import \
+from omnixai_community.data.image import Image
+from omnixai_community.explainers.vision.specific.feature_visualization.tf.preprocess import \
     RandomBlur, RandomCrop, RandomResize, RandomFlip, Padding
-from omnixai-community.preprocessing.pipeline import Pipeline
+from omnixai_community.preprocessing.pipeline import Pipeline
 
 
 class TestPreprocess(unittest.TestCase):

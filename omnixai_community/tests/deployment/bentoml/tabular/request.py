@@ -8,7 +8,7 @@ import os
 import unittest
 import requests
 import numpy as np
-from omnixai-community.data.tabular import Tabular
+from omnixai_community.data.tabular import Tabular
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
 

@@ -55,7 +55,7 @@ class TabularExplainer(AutoExplainerBase):
         :param data: The training data used to initialize explainers. ``data``
             can be the training dataset for training the machine learning model. If the training
             dataset is large, ``data`` can be its subset by applying
-            `omnixai-community.sampler.tabular.Sampler.subsample`.
+            `omnixai_community.sampler.tabular.Sampler.subsample`.
         :param model: The machine learning model to explain, which can be a scikit-learn model,
             a tensorflow model, a torch model, or a black-box prediction function.
         :param preprocess: The preprocessing function that converts the raw input features

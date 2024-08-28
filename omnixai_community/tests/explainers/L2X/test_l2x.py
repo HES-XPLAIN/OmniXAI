@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from omnixai-community.explainers.tabular.agnostic.L2X.utils import L2XModel, Trainer
+from omnixai_community.explainers.tabular.agnostic.L2X.utils import L2XModel, Trainer
 
 
 class PredictionModel(nn.Module):

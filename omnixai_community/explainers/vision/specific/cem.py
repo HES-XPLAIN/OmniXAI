@@ -10,10 +10,10 @@ The contrastive explainer for image classification.
 import numpy as np
 from typing import Callable
 
-from omnixai-community.explainers.base import ExplainerBase
-from omnixai-community.data.image import Image
-from omnixai-community.explanations.image.contrast import ContrastiveExplanation
-from omnixai-community.utils.misc import is_torch_available, is_tf_available, ProgressBar
+from omnixai_community.explainers.base import ExplainerBase
+from omnixai_community.data.image import Image
+from omnixai_community.explanations.image.contrast import ContrastiveExplanation
+from omnixai_community.utils.misc import is_torch_available, is_tf_available, ProgressBar
 
 
 if is_torch_available():

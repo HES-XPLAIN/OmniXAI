@@ -249,7 +249,7 @@ class FeatureMapVisualizer(ExplainerBase):
         if min(x.shape[0], x.shape[1]) >= min_size:
             return x
         else:
-            from omnixai-community.preprocessing.image import Resize
+            from omnixai_community.preprocessing.image import Resize
             im = Image(x, batched=False)
             im = Resize(min_size).transform(im)
             return im.to_numpy(keepdim=False)[0]

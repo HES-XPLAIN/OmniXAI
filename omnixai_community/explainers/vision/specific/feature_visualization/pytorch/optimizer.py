@@ -100,7 +100,7 @@ class FeatureOptimizer(FeatureOptimizerMixin):
 
     @staticmethod
     def _default_transform(size):
-        from omnixai-community.preprocessing.pipeline import Pipeline
+        from omnixai_community.preprocessing.pipeline import Pipeline
         from .preprocess import RandomBlur, RandomCrop, \
             RandomResize, RandomFlip, Padding
 
@@ -179,7 +179,7 @@ class FeatureOptimizer(FeatureOptimizerMixin):
             save_all_images=False,
             verbose=True,
     ):
-        from omnixai-community.utils.misc import ProgressBar
+        from omnixai_community.utils.misc import ProgressBar
         bar = ProgressBar(num_iterations) if verbose else None
 
         if image_shape is None:

@@ -6,8 +6,8 @@
 #
 import os
 import numpy as np
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.deployment.bentoml.omnixai import init_service
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.deployment.bentoml.omnixai import init_service
 
 
 def test():

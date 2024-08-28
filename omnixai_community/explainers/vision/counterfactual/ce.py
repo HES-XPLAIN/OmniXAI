@@ -10,11 +10,11 @@ The counterfactual explainer for image classification.
 import numpy as np
 from typing import Callable
 
-from omnixai-community.explainers.base import ExplainerBase
-from omnixai-community.data.image import Image
-from omnixai-community.explainers.tabular.counterfactual.ce import CounterfactualOptimizer
-from omnixai-community.explanations.image.counterfactual import CFExplanation
-from omnixai-community.utils.misc import is_torch_available, is_tf_available
+from omnixai_community.explainers.base import ExplainerBase
+from omnixai_community.data.image import Image
+from omnixai_community.explainers.tabular.counterfactual.ce import CounterfactualOptimizer
+from omnixai_community.explanations.image.counterfactual import CFExplanation
+from omnixai_community.utils.misc import is_torch_available, is_tf_available
 
 if is_torch_available():
     import torch

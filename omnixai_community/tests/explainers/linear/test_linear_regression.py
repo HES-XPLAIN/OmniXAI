@@ -7,10 +7,10 @@
 import unittest
 import numpy as np
 import pandas as pd
-from omnixai-community.utils.misc import set_random_seed
+from omnixai_community.utils.misc import set_random_seed
 from sklearn.datasets import fetch_california_housing
-from omnixai-community.data.tabular import Tabular
-from omnixai-community.explainers.tabular import LinearRegression
+from omnixai_community.data.tabular import Tabular
+from omnixai_community.explainers.tabular import LinearRegression
 
 pd.set_option("display.max_columns", None)
 

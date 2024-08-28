@@ -8,9 +8,9 @@ import os
 import unittest
 import numpy as np
 import pandas as pd
-from omnixai-community.explainers.tabular.counterfactual.mace.retrieval import CFRetrieval
-from omnixai-community.explainers.tabular.counterfactual.mace.rl import RLOptimizer
-from omnixai-community.tests.explainers.tasks import TabularClassification
+from omnixai_community.explainers.tabular.counterfactual.mace.retrieval import CFRetrieval
+from omnixai_community.explainers.tabular.counterfactual.mace.rl import RLOptimizer
+from omnixai_community.tests.explainers.tasks import TabularClassification
 
 pd.set_option("display.max_columns", None)
 

@@ -6,7 +6,7 @@
 #
 import numpy as np
 import tensorflow as tf
-from omnixai-community.preprocessing.base import TransformBase
+from omnixai_community.preprocessing.base import TransformBase
 
 
 class RandomBlur(TransformBase):

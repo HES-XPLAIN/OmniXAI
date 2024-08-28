@@ -6,7 +6,7 @@
 #
 import unittest
 import numpy as np
-from omnixai-community.explanations.base import PredictedResults, ExplanationBase
+from omnixai_community.explanations.base import PredictedResults, ExplanationBase
 
 
 class TestPrediction(unittest.TestCase):
@@ -14,7 +14,7 @@ class TestPrediction(unittest.TestCase):
     def test_1(self):
         exp = PredictedResults(np.array([[0.1, 0.2, 0.7], [0.6, 0.1, 0.3]]))
         s = exp.to_json()
-        self.assertEqual(s, '{"module": "omnixai-community.explanations.base", '
+        self.assertEqual(s, '{"module": "omnixai_community.explanations.base", '
                             '"class": "PredictedResults", "data": {"results": '
                             '{"labels": [[2, 1, 0], [0, 2, 1]], "values": [[0.7, 0.2, 0.1], '
                             '[0.6, 0.3, 0.1]]}}}')

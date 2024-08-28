@@ -9,7 +9,7 @@ Feature imbalance plots.
 """
 import numpy as np
 import pandas as pd
-from omnixai-community.explanations.base import ExplanationBase, DashFigure
+from omnixai_community.explanations.base import ExplanationBase, DashFigure
 
 
 class ImbalanceExplanation(ExplanationBase):

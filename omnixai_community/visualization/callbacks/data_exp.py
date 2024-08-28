@@ -7,7 +7,7 @@
 import dash
 import copy
 import json
-import omnixai-community.visualization.state as board
+import omnixai_community.visualization.state as board
 from dash import Input, Output, State, callback
 from ..pages.data_exp import create_right_column
 

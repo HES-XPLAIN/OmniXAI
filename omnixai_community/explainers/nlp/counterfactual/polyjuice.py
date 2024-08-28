@@ -12,9 +12,9 @@ import pandas as pd
 from typing import Callable
 from collections import Counter
 
-from omnixai-community.explainers.base import ExplainerBase
-from omnixai-community.data.text import Text
-from omnixai-community.explanations.tabular.counterfactual import CFExplanation
+from omnixai_community.explainers.base import ExplainerBase
+from omnixai_community.data.text import Text
+from omnixai_community.explanations.tabular.counterfactual import CFExplanation
 
 
 class Polyjuice(ExplainerBase):

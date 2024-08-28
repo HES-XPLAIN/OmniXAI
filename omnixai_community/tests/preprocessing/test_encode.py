@@ -6,7 +6,7 @@
 #
 import unittest
 import numpy as np
-from omnixai-community.preprocessing.encode import *
+from omnixai_community.preprocessing.encode import *
 
 
 class TestEncode(unittest.TestCase):

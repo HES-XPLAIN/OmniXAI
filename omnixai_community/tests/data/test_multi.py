@@ -7,9 +7,9 @@
 import os
 import unittest
 from PIL import Image as PilImage
-from omnixai-community.data.text import Text
-from omnixai-community.data.image import Image
-from omnixai-community.data.multi_inputs import MultiInputs
+from omnixai_community.data.text import Text
+from omnixai_community.data.image import Image
+from omnixai_community.data.multi_inputs import MultiInputs
 
 
 class TestMultiInputs(unittest.TestCase):

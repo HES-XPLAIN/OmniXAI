@@ -7,9 +7,9 @@
 import os
 import unittest
 import pprint
-from omnixai-community.utils.misc import set_random_seed
-from omnixai-community.explainers.tabular.agnostic.gpt import GPTExplainer
-from omnixai-community.tests.explainers.tasks import TabularClassification
+from omnixai_community.utils.misc import set_random_seed
+from omnixai_community.explainers.tabular.agnostic.gpt import GPTExplainer
+from omnixai_community.tests.explainers.tasks import TabularClassification
 
 
 class TestGPTExplainer(unittest.TestCase):

@@ -7,7 +7,7 @@
 from dash import dcc
 from dash import html
 from ..plot import plot_one_instance
-from omnixai-community.explanations.base import DashFigure
+from omnixai_community.explanations.base import DashFigure
 
 
 def create_control_panel(state) -> html.Div:

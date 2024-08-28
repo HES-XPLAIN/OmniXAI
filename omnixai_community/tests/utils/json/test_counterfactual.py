@@ -6,7 +6,7 @@
 #
 import unittest
 import pandas as pd
-from omnixai-community.explanations.tabular.counterfactual import CFExplanation, ExplanationBase
+from omnixai_community.explanations.tabular.counterfactual import CFExplanation, ExplanationBase
 
 
 class TestCF(unittest.TestCase):

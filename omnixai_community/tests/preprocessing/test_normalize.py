@@ -6,7 +6,7 @@
 #
 import unittest
 import numpy as np
-from omnixai-community.preprocessing.normalize import *
+from omnixai_community.preprocessing.normalize import *
 
 
 class TestNormalize(unittest.TestCase):

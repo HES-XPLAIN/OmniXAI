@@ -8,8 +8,8 @@ import unittest
 import numpy as np
 import tensorflow as tf
 
-from omnixai-community.data.image import Image
-from omnixai-community.explainers.vision import ShapImage
+from omnixai_community.data.image import Image
+from omnixai_community.explainers.vision import ShapImage
 
 
 class TestShapImage(unittest.TestCase):

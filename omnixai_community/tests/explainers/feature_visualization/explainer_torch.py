@@ -8,7 +8,7 @@ import torch
 import unittest
 import numpy as np
 from torchvision import models
-from omnixai-community.explainers.vision.specific.feature_visualization.pytorch.optimizer import \
+from omnixai_community.explainers.vision.specific.feature_visualization.pytorch.optimizer import \
     Objective, FeatureOptimizer
 
 

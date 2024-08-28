@@ -11,9 +11,9 @@ import torch
 from torchvision import models, transforms
 from PIL import Image as PilImage
 
-from omnixai-community.data.image import Image
-from omnixai-community.explainers.vision.specific.gradcam import GradCAM
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.data.image import Image
+from omnixai_community.explainers.vision.specific.gradcam import GradCAM
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestGradCAM(unittest.TestCase):

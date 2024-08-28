@@ -5,7 +5,7 @@
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
 import unittest
-from omnixai-community.preprocessing.fill import *
+from omnixai_community.preprocessing.fill import *
 
 
 class TestFillNaN(unittest.TestCase):

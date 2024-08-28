@@ -5,10 +5,10 @@
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
 from typing import Callable
-from omnixai-community.utils.misc import is_tf_available, is_torch_available
-from omnixai-community.explainers.base import ExplainerBase
-from omnixai-community.data.image import Image
-from omnixai-community.explanations.image.pixel_importance import PixelImportance
+from omnixai_community.utils.misc import is_tf_available, is_torch_available
+from omnixai_community.explainers.base import ExplainerBase
+from omnixai_community.data.image import Image
+from omnixai_community.explanations.image.pixel_importance import PixelImportance
 from .utils import GradMixin, guided_bp
 
 

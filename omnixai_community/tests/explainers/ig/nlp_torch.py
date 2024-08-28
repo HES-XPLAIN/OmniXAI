@@ -12,11 +12,11 @@ import torch
 import torch.nn as nn
 import sklearn
 from sklearn.datasets import fetch_20newsgroups
-from omnixai-community.data.text import Text
-from omnixai-community.preprocessing.text import Word2Id
-from omnixai-community.explainers.tabular.agnostic.L2X.utils import Trainer, InputData, DataLoader
-from omnixai-community.explainers.nlp.specific.ig import IntegratedGradientText
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.data.text import Text
+from omnixai_community.preprocessing.text import Word2Id
+from omnixai_community.explainers.tabular.agnostic.L2X.utils import Trainer, InputData, DataLoader
+from omnixai_community.explainers.nlp.specific.ig import IntegratedGradientText
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class _ModelBase(nn.Module):

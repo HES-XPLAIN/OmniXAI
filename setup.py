@@ -29,9 +29,9 @@ setup(
     keywords="XAI Explainable AI Explanation",
     url="https://github.com/HES-XPLAIN/OmniXAI",
     license="3-Clause BSD",
-    packages=find_namespace_packages(include="omnixai-community.*"),
-    package_dir={"omnixai-community": "omnixai-community"},
-    package_data={"omnixai-community": ["visualization/assets/*"]},
+    packages=find_namespace_packages(include="omnixai_community.*"),
+    package_dir={"omnixai_community": "omnixai_community"},
+    package_data={"omnixai_community": ["visualization/assets/*"]},
     install_requires=[
         "numpy>=1.17,<1.24",
         "pandas>=1.1.0",

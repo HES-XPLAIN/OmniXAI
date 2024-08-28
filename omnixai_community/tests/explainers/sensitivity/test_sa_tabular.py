@@ -7,10 +7,10 @@
 import os
 import pprint
 import unittest
-from omnixai-community.utils.misc import set_random_seed
-from omnixai-community.explainers.tabular import SensitivityAnalysisTabular
-from omnixai-community.tests.explainers.tasks import TabularRegression
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.utils.misc import set_random_seed
+from omnixai_community.explainers.tabular import SensitivityAnalysisTabular
+from omnixai_community.tests.explainers.tasks import TabularRegression
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class TestSensitivity(unittest.TestCase):

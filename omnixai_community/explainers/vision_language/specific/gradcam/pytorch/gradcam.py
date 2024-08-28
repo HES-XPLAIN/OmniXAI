@@ -9,12 +9,12 @@ import numpy as np
 from typing import Callable
 from abc import abstractmethod
 
-from omnixai-community.utils.misc import AutodocABCMeta
-from omnixai-community.data.image import Image
-from omnixai-community.data.multi_inputs import MultiInputs
-from omnixai-community.utils.misc import is_torch_available
-from omnixai-community.preprocessing.image import Resize
-from omnixai-community.explanations.image.pixel_importance import PixelImportance
+from omnixai_community.utils.misc import AutodocABCMeta
+from omnixai_community.data.image import Image
+from omnixai_community.data.multi_inputs import MultiInputs
+from omnixai_community.utils.misc import is_torch_available
+from omnixai_community.preprocessing.image import Resize
+from omnixai_community.explanations.image.pixel_importance import PixelImportance
 
 if not is_torch_available():
     raise EnvironmentError("Torch cannot be found.")

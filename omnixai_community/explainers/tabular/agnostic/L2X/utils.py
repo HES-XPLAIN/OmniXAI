@@ -8,7 +8,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 from torch.utils.data import Dataset, TensorDataset, DataLoader
-from omnixai-community.utils.misc import ProgressBar
+from omnixai_community.utils.misc import ProgressBar
 
 
 class SamplingLayer(nn.Module):

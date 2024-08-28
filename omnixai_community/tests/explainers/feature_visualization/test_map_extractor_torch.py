@@ -8,7 +8,7 @@ import unittest
 import torch
 import numpy as np
 import torch.nn as nn
-from omnixai-community.explainers.vision.specific.feature_visualization.pytorch.feature_maps import \
+from omnixai_community.explainers.vision.specific.feature_visualization.pytorch.feature_maps import \
     FeatureMapExtractor
 
 

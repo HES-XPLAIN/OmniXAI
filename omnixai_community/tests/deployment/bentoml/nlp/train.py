@@ -8,11 +8,11 @@ import pandas as pd
 import torch
 import torch.nn as nn
 
-from omnixai-community.data.text import Text
-from omnixai-community.preprocessing.text import Word2Id
-from omnixai-community.explainers.tabular.agnostic.L2X.utils import Trainer
-from omnixai-community.explainers.nlp import NLPExplainer
-from omnixai-community.deployment.bentoml.omnixai import save_model
+from omnixai_community.data.text import Text
+from omnixai_community.preprocessing.text import Word2Id
+from omnixai_community.explainers.tabular.agnostic.L2X.utils import Trainer
+from omnixai_community.explainers.nlp import NLPExplainer
+from omnixai_community.deployment.bentoml.omnixai import save_model
 
 from model import TextModel
 

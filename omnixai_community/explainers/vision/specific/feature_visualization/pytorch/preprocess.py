@@ -7,7 +7,7 @@
 import torch
 import torchvision
 from packaging import version
-from omnixai-community.preprocessing.base import TransformBase
+from omnixai_community.preprocessing.base import TransformBase
 
 
 class RandomBlur(TransformBase):

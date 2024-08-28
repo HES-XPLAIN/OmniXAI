@@ -13,8 +13,8 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 
-from omnixai-community.data.image import Image
-from omnixai-community.explainers.vision.specific.cem import CEMOptimizer
+from omnixai_community.data.image import Image
+from omnixai_community.explainers.vision.specific.cem import CEMOptimizer
 
 
 class InputData(Dataset):

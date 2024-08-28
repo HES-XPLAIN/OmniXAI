@@ -5,8 +5,8 @@
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
 import numpy as np
-from omnixai-community.data.image import Image
-from omnixai-community.preprocessing.image import Resize
+from omnixai_community.data.image import Image
+from omnixai_community.preprocessing.image import Resize
 
 
 class ScoreCAMMixin:

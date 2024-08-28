@@ -6,7 +6,7 @@
 #
 import unittest
 import pandas as pd
-from omnixai-community.data.timeseries import Timeseries
+from omnixai_community.data.timeseries import Timeseries
 
 
 class TestTimeseries(unittest.TestCase):

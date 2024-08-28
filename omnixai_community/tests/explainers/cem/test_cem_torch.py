@@ -13,9 +13,9 @@ import torchvision.transforms as transforms
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 
-from omnixai-community.data.image import Image
-from omnixai-community.explainers.vision import ContrastiveExplainer
-from omnixai-community.explanations.base import ExplanationBase
+from omnixai_community.data.image import Image
+from omnixai_community.explainers.vision import ContrastiveExplainer
+from omnixai_community.explanations.base import ExplanationBase
 
 
 class InputData(Dataset):
