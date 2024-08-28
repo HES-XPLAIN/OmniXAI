@@ -27,7 +27,7 @@ setup(
     long_description=open("README.md", "r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     keywords="XAI Explainable AI Explanation",
-    url="https://github.com/HES-PLAIN/omnixai-community",
+    url="https://github.com/HES-XPLAIN/OmniXAI",
     license="3-Clause BSD",
     packages=find_namespace_packages(include="omnixai-community.*"),
     package_dir={"omnixai-community": "omnixai-community"},
