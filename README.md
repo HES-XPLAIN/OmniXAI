@@ -1,3 +1,8 @@
+> [!NOTE]
+> This package is a fork of the upstream [OmniXAI](https://github.com/salesforce/OmniXAI/) library, because the original
+> maintainer was unable to publish new releases on the Python Package Index for technical reason. Any external
+> contribution should be directed towards the upstream project.
+
 <p align="center">
     <br>
     <img src="https://github.com/salesforce/OmniXAI/raw/main/docs/_static/logo_small.png" width="400"/>
