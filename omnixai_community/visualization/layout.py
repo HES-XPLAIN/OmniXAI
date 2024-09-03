@@ -28,8 +28,8 @@ def create_banner(app):
     return html.Div(
         id="banner",
         className="banner",
-        children=[html.Img(src=app.get_asset_url("logo_small.png")),
-                  html.Plaintext("  Powered by Salesforce AI Research")],
+        children=[html.Img(src=app.get_asset_url("logo_hesxplain.png")),
+                  html.Plaintext("  Supported by HES-XPLAIN project")],
     )
 
 
